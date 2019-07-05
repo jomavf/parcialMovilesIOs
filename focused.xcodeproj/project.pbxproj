@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		2CF52A3B22CEF10600AF4E60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A3A22CEF10600AF4E60 /* AppDelegate.swift */; };
-		2CF52A3D22CEF10600AF4E60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A3C22CEF10600AF4E60 /* ViewController.swift */; };
 		2CF52A4022CEF10600AF4E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF52A3E22CEF10600AF4E60 /* Main.storyboard */; };
 		2CF52A4322CEF10600AF4E60 /* focused.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A4122CEF10600AF4E60 /* focused.xcdatamodeld */; };
-		2CF52A4522CEF10700AF4E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF52A4422CEF10700AF4E60 /* Assets.xcassets */; };
 		2CF52A4822CEF10700AF4E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF52A4622CEF10700AF4E60 /* LaunchScreen.storyboard */; };
+		2CF52A5522CEF52500AF4E60 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A5422CEF52500AF4E60 /* HomeViewController.swift */; };
+		2CF52A5922CEF65600AF4E60 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A5822CEF65600AF4E60 /* FocusViewController.swift */; };
+		2CF52A5B22CEF7CF00AF4E60 /* FocusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A5A22CEF7CF00AF4E60 /* FocusCollectionViewCell.swift */; };
+		2CF52A5E22CEFC2200AF4E60 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A5C22CEFC2200AF4E60 /* Item+CoreDataClass.swift */; };
+		2CF52A5F22CEFC2200AF4E60 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A5D22CEFC2200AF4E60 /* Item+CoreDataProperties.swift */; };
+		2CF52A6122CEFC6900AF4E60 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A6022CEFC6900AF4E60 /* PersistanceService.swift */; };
+		2CF52A6322CEFF2100AF4E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF52A6222CEFF2100AF4E60 /* Assets.xcassets */; };
+		2CF52A6522CF00FC00AF4E60 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF52A6422CF00FC00AF4E60 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CF52A3722CEF10600AF4E60 /* focused.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = focused.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF52A3A22CEF10600AF4E60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CF52A3C22CEF10600AF4E60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CF52A3F22CEF10600AF4E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CF52A4222CEF10600AF4E60 /* focused.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = focused.xcdatamodel; sourceTree = "<group>"; };
-		2CF52A4422CEF10700AF4E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF52A4722CEF10700AF4E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CF52A4922CEF10700AF4E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF52A5422CEF52500AF4E60 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2CF52A5822CEF65600AF4E60 /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		2CF52A5A22CEF7CF00AF4E60 /* FocusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CF52A5C22CEFC2200AF4E60 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CF52A5D22CEFC2200AF4E60 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CF52A6022CEFC6900AF4E60 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		2CF52A6222CEFF2100AF4E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF52A6422CF00FC00AF4E60 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		2CF52A3922CEF10600AF4E60 /* focused */ = {
 			isa = PBXGroup;
 			children = (
+				2CF52A5022CEF11A00AF4E60 /* models */,
+				2CF52A4F22CEF11400AF4E60 /* controllers */,
 				2CF52A3A22CEF10600AF4E60 /* AppDelegate.swift */,
-				2CF52A3C22CEF10600AF4E60 /* ViewController.swift */,
 				2CF52A3E22CEF10600AF4E60 /* Main.storyboard */,
-				2CF52A4422CEF10700AF4E60 /* Assets.xcassets */,
 				2CF52A4622CEF10700AF4E60 /* LaunchScreen.storyboard */,
 				2CF52A4922CEF10700AF4E60 /* Info.plist */,
 				2CF52A4122CEF10600AF4E60 /* focused.xcdatamodeld */,
+				2CF52A6022CEFC6900AF4E60 /* PersistanceService.swift */,
+				2CF52A6222CEFF2100AF4E60 /* Assets.xcassets */,
 			);
 			path = focused;
+			sourceTree = "<group>";
+		};
+		2CF52A4F22CEF11400AF4E60 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF52A5422CEF52500AF4E60 /* HomeViewController.swift */,
+				2CF52A5A22CEF7CF00AF4E60 /* FocusCollectionViewCell.swift */,
+				2CF52A5822CEF65600AF4E60 /* FocusViewController.swift */,
+				2CF52A6422CF00FC00AF4E60 /* AddViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		2CF52A5022CEF11A00AF4E60 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2CF52A5C22CEFC2200AF4E60 /* Item+CoreDataClass.swift */,
+				2CF52A5D22CEFC2200AF4E60 /* Item+CoreDataProperties.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF52A4822CEF10700AF4E60 /* LaunchScreen.storyboard in Resources */,
-				2CF52A4522CEF10700AF4E60 /* Assets.xcassets in Resources */,
+				2CF52A6322CEFF2100AF4E60 /* Assets.xcassets in Resources */,
 				2CF52A4022CEF10600AF4E60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF52A3D22CEF10600AF4E60 /* ViewController.swift in Sources */,
+				2CF52A6522CF00FC00AF4E60 /* AddViewController.swift in Sources */,
+				2CF52A5922CEF65600AF4E60 /* FocusViewController.swift in Sources */,
+				2CF52A5F22CEFC2200AF4E60 /* Item+CoreDataProperties.swift in Sources */,
 				2CF52A4322CEF10600AF4E60 /* focused.xcdatamodeld in Sources */,
+				2CF52A6122CEFC6900AF4E60 /* PersistanceService.swift in Sources */,
+				2CF52A5B22CEF7CF00AF4E60 /* FocusCollectionViewCell.swift in Sources */,
 				2CF52A3B22CEF10600AF4E60 /* AppDelegate.swift in Sources */,
+				2CF52A5522CEF52500AF4E60 /* HomeViewController.swift in Sources */,
+				2CF52A5E22CEFC2200AF4E60 /* Item+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
